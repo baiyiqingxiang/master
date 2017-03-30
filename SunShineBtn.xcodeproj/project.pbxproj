@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF94E9591E8B525000D24EFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF94E9581E8B525000D24EFE /* main.m */; };
+		FF94E95C1E8B525000D24EFE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF94E95B1E8B525000D24EFE /* AppDelegate.m */; };
+		FF94E95F1E8B525000D24EFE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF94E95E1E8B525000D24EFE /* ViewController.m */; };
+		FF94E9621E8B525000D24EFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF94E9601E8B525000D24EFE /* Main.storyboard */; };
+		FF94E9641E8B525000D24EFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF94E9631E8B525000D24EFE /* Assets.xcassets */; };
+		FF94E9671E8B525000D24EFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF94E9651E8B525000D24EFE /* LaunchScreen.storyboard */; };
+		FF94E9721E8B525000D24EFE /* SunShineBtnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF94E9711E8B525000D24EFE /* SunShineBtnTests.m */; };
+		FF94E97D1E8B525000D24EFE /* SunShineBtnUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF94E97C1E8B525000D24EFE /* SunShineBtnUITests.m */; };
+		FF94E98C1E8B52C400D24EFE /* BtnBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF94E98B1E8B52C400D24EFE /* BtnBackgroundView.m */; };
+		FF94E9901E8B540E00D24EFE /* like.png in Resources */ = {isa = PBXBuildFile; fileRef = FF94E98D1E8B540E00D24EFE /* like.png */; };
+		FF94E9911E8B540E00D24EFE /* smile.png in Resources */ = {isa = PBXBuildFile; fileRef = FF94E98E1E8B540E00D24EFE /* smile.png */; };
+		FF94E9921E8B540E00D24EFE /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = FF94E98F1E8B540E00D24EFE /* star.png */; };
+		FF94E9941E8B543600D24EFE /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = FF94E9931E8B543600D24EFE /* heart.png */; };
+		FF94E9971E8B7E8300D24EFE /* SunShineBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = FF94E9961E8B7E8300D24EFE /* SunShineBtn.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF94E96E1E8B525000D24EFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF94E94C1E8B525000D24EFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF94E9531E8B525000D24EFE;
+			remoteInfo = SunShineBtn;
+		};
+		FF94E9791E8B525000D24EFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF94E94C1E8B525000D24EFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF94E9531E8B525000D24EFE;
+			remoteInfo = SunShineBtn;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF94E9541E8B525000D24EFE /* SunShineBtn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SunShineBtn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF94E9581E8B525000D24EFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF94E95A1E8B525000D24EFE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF94E95B1E8B525000D24EFE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF94E95D1E8B525000D24EFE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FF94E95E1E8B525000D24EFE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FF94E9611E8B525000D24EFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF94E9631E8B525000D24EFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF94E9661E8B525000D24EFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF94E9681E8B525000D24EFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF94E96D1E8B525000D24EFE /* SunShineBtnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SunShineBtnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF94E9711E8B525000D24EFE /* SunShineBtnTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SunShineBtnTests.m; sourceTree = "<group>"; };
+		FF94E9731E8B525000D24EFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF94E9781E8B525000D24EFE /* SunShineBtnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SunShineBtnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF94E97C1E8B525000D24EFE /* SunShineBtnUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SunShineBtnUITests.m; sourceTree = "<group>"; };
+		FF94E97E1E8B525000D24EFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF94E98A1E8B52C400D24EFE /* BtnBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BtnBackgroundView.h; sourceTree = "<group>"; };
+		FF94E98B1E8B52C400D24EFE /* BtnBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BtnBackgroundView.m; sourceTree = "<group>"; };
+		FF94E98D1E8B540E00D24EFE /* like.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = like.png; sourceTree = "<group>"; };
+		FF94E98E1E8B540E00D24EFE /* smile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smile.png; sourceTree = "<group>"; };
+		FF94E98F1E8B540E00D24EFE /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		FF94E9931E8B543600D24EFE /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart.png; sourceTree = "<group>"; };
+		FF94E9951E8B7E8300D24EFE /* SunShineBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SunShineBtn.h; sourceTree = "<group>"; };
+		FF94E9961E8B7E8300D24EFE /* SunShineBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SunShineBtn.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF94E9511E8B525000D24EFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF94E96A1E8B525000D24EFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF94E9751E8B525000D24EFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF94E94B1E8B525000D24EFE = {
+			isa = PBXGroup;
+			children = (
+				FF94E9561E8B525000D24EFE /* SunShineBtn */,
+				FF94E9701E8B525000D24EFE /* SunShineBtnTests */,
+				FF94E97B1E8B525000D24EFE /* SunShineBtnUITests */,
+				FF94E9551E8B525000D24EFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF94E9551E8B525000D24EFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF94E9541E8B525000D24EFE /* SunShineBtn.app */,
+				FF94E96D1E8B525000D24EFE /* SunShineBtnTests.xctest */,
+				FF94E9781E8B525000D24EFE /* SunShineBtnUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF94E9561E8B525000D24EFE /* SunShineBtn */ = {
+			isa = PBXGroup;
+			children = (
+				FF94E98A1E8B52C400D24EFE /* BtnBackgroundView.h */,
+				FF94E98B1E8B52C400D24EFE /* BtnBackgroundView.m */,
+				FF94E9951E8B7E8300D24EFE /* SunShineBtn.h */,
+				FF94E9961E8B7E8300D24EFE /* SunShineBtn.m */,
+				FF94E9931E8B543600D24EFE /* heart.png */,
+				FF94E98D1E8B540E00D24EFE /* like.png */,
+				FF94E98E1E8B540E00D24EFE /* smile.png */,
+				FF94E98F1E8B540E00D24EFE /* star.png */,
+				FF94E95A1E8B525000D24EFE /* AppDelegate.h */,
+				FF94E95B1E8B525000D24EFE /* AppDelegate.m */,
+				FF94E95D1E8B525000D24EFE /* ViewController.h */,
+				FF94E95E1E8B525000D24EFE /* ViewController.m */,
+				FF94E9601E8B525000D24EFE /* Main.storyboard */,
+				FF94E9631E8B525000D24EFE /* Assets.xcassets */,
+				FF94E9651E8B525000D24EFE /* LaunchScreen.storyboard */,
+				FF94E9681E8B525000D24EFE /* Info.plist */,
+				FF94E9571E8B525000D24EFE /* Supporting Files */,
+			);
+			path = SunShineBtn;
+			sourceTree = "<group>";
+		};
+		FF94E9571E8B525000D24EFE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF94E9581E8B525000D24EFE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF94E9701E8B525000D24EFE /* SunShineBtnTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF94E9711E8B525000D24EFE /* SunShineBtnTests.m */,
+				FF94E9731E8B525000D24EFE /* Info.plist */,
+			);
+			path = SunShineBtnTests;
+			sourceTree = "<group>";
+		};
+		FF94E97B1E8B525000D24EFE /* SunShineBtnUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF94E97C1E8B525000D24EFE /* SunShineBtnUITests.m */,
+				FF94E97E1E8B525000D24EFE /* Info.plist */,
+			);
+			path = SunShineBtnUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF94E9531E8B525000D24EFE /* SunShineBtn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF94E9811E8B525000D24EFE /* Build configuration list for PBXNativeTarget "SunShineBtn" */;
+			buildPhases = (
+				FF94E9501E8B525000D24EFE /* Sources */,
+				FF94E9511E8B525000D24EFE /* Frameworks */,
+				FF94E9521E8B525000D24EFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SunShineBtn;
+			productName = SunShineBtn;
+			productReference = FF94E9541E8B525000D24EFE /* SunShineBtn.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF94E96C1E8B525000D24EFE /* SunShineBtnTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF94E9841E8B525000D24EFE /* Build configuration list for PBXNativeTarget "SunShineBtnTests" */;
+			buildPhases = (
+				FF94E9691E8B525000D24EFE /* Sources */,
+				FF94E96A1E8B525000D24EFE /* Frameworks */,
+				FF94E96B1E8B525000D24EFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF94E96F1E8B525000D24EFE /* PBXTargetDependency */,
+			);
+			name = SunShineBtnTests;
+			productName = SunShineBtnTests;
+			productReference = FF94E96D1E8B525000D24EFE /* SunShineBtnTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF94E9771E8B525000D24EFE /* SunShineBtnUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF94E9871E8B525000D24EFE /* Build configuration list for PBXNativeTarget "SunShineBtnUITests" */;
+			buildPhases = (
+				FF94E9741E8B525000D24EFE /* Sources */,
+				FF94E9751E8B525000D24EFE /* Frameworks */,
+				FF94E9761E8B525000D24EFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF94E97A1E8B525000D24EFE /* PBXTargetDependency */,
+			);
+			name = SunShineBtnUITests;
+			productName = SunShineBtnUITests;
+			productReference = FF94E9781E8B525000D24EFE /* SunShineBtnUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF94E94C1E8B525000D24EFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "白衣卿相";
+				TargetAttributes = {
+					FF94E9531E8B525000D24EFE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = B2GYTXGMWA;
+						ProvisioningStyle = Automatic;
+					};
+					FF94E96C1E8B525000D24EFE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = W88U4V4UW5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FF94E9531E8B525000D24EFE;
+					};
+					FF94E9771E8B525000D24EFE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = W88U4V4UW5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FF94E9531E8B525000D24EFE;
+					};
+				};
+			};
+			buildConfigurationList = FF94E94F1E8B525000D24EFE /* Build configuration list for PBXProject "SunShineBtn" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF94E94B1E8B525000D24EFE;
+			productRefGroup = FF94E9551E8B525000D24EFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF94E9531E8B525000D24EFE /* SunShineBtn */,
+				FF94E96C1E8B525000D24EFE /* SunShineBtnTests */,
+				FF94E9771E8B525000D24EFE /* SunShineBtnUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF94E9521E8B525000D24EFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF94E9901E8B540E00D24EFE /* like.png in Resources */,
+				FF94E9671E8B525000D24EFE /* LaunchScreen.storyboard in Resources */,
+				FF94E9911E8B540E00D24EFE /* smile.png in Resources */,
+				FF94E9641E8B525000D24EFE /* Assets.xcassets in Resources */,
+				FF94E9941E8B543600D24EFE /* heart.png in Resources */,
+				FF94E9621E8B525000D24EFE /* Main.storyboard in Resources */,
+				FF94E9921E8B540E00D24EFE /* star.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF94E96B1E8B525000D24EFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF94E9761E8B525000D24EFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF94E9501E8B525000D24EFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF94E95F1E8B525000D24EFE /* ViewController.m in Sources */,
+				FF94E9971E8B7E8300D24EFE /* SunShineBtn.m in Sources */,
+				FF94E98C1E8B52C400D24EFE /* BtnBackgroundView.m in Sources */,
+				FF94E95C1E8B525000D24EFE /* AppDelegate.m in Sources */,
+				FF94E9591E8B525000D24EFE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF94E9691E8B525000D24EFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF94E9721E8B525000D24EFE /* SunShineBtnTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF94E9741E8B525000D24EFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF94E97D1E8B525000D24EFE /* SunShineBtnUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF94E96F1E8B525000D24EFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF94E9531E8B525000D24EFE /* SunShineBtn */;
+			targetProxy = FF94E96E1E8B525000D24EFE /* PBXContainerItemProxy */;
+		};
+		FF94E97A1E8B525000D24EFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF94E9531E8B525000D24EFE /* SunShineBtn */;
+			targetProxy = FF94E9791E8B525000D24EFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF94E9601E8B525000D24EFE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF94E9611E8B525000D24EFE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF94E9651E8B525000D24EFE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF94E9661E8B525000D24EFE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF94E97F1E8B525000D24EFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF94E9801E8B525000D24EFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF94E9821E8B525000D24EFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B2GYTXGMWA;
+				INFOPLIST_FILE = SunShineBtn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huguopeng.com.SunShineBtn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FF94E9831E8B525000D24EFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B2GYTXGMWA;
+				INFOPLIST_FILE = SunShineBtn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huguopeng.com.SunShineBtn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FF94E9851E8B525000D24EFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = W88U4V4UW5;
+				INFOPLIST_FILE = SunShineBtnTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huguopeng.com.SunShineBtnTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SunShineBtn.app/SunShineBtn";
+			};
+			name = Debug;
+		};
+		FF94E9861E8B525000D24EFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = W88U4V4UW5;
+				INFOPLIST_FILE = SunShineBtnTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huguopeng.com.SunShineBtnTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SunShineBtn.app/SunShineBtn";
+			};
+			name = Release;
+		};
+		FF94E9881E8B525000D24EFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = W88U4V4UW5;
+				INFOPLIST_FILE = SunShineBtnUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huguopeng.com.SunShineBtnUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SunShineBtn;
+			};
+			name = Debug;
+		};
+		FF94E9891E8B525000D24EFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = W88U4V4UW5;
+				INFOPLIST_FILE = SunShineBtnUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huguopeng.com.SunShineBtnUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SunShineBtn;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF94E94F1E8B525000D24EFE /* Build configuration list for PBXProject "SunShineBtn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF94E97F1E8B525000D24EFE /* Debug */,
+				FF94E9801E8B525000D24EFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF94E9811E8B525000D24EFE /* Build configuration list for PBXNativeTarget "SunShineBtn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF94E9821E8B525000D24EFE /* Debug */,
+				FF94E9831E8B525000D24EFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF94E9841E8B525000D24EFE /* Build configuration list for PBXNativeTarget "SunShineBtnTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF94E9851E8B525000D24EFE /* Debug */,
+				FF94E9861E8B525000D24EFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF94E9871E8B525000D24EFE /* Build configuration list for PBXNativeTarget "SunShineBtnUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF94E9881E8B525000D24EFE /* Debug */,
+				FF94E9891E8B525000D24EFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF94E94C1E8B525000D24EFE /* Project object */;
+}
